@@ -1,0 +1,145 @@
+{
+  "liblabVersion": "2.1.18",
+  "date": "2024-07-05T23:38:35.784Z",
+  "config": {
+    "apiId": 391,
+    "sdkName": "skyscanner-referrals",
+    "sdkVersion": "1.0.0",
+    "liblabVersion": "2",
+    "deliveryMethods": ["zip"],
+    "languages": ["python"],
+    "apiVersion": "3.0.0",
+    "apiName": "Skyscanner Referrals API",
+    "specFilePath": "./skyscanner_Referrals_API_fixed.postman_collection.json",
+    "auth": ["apikey"],
+    "languageOptions": {
+      "python": {
+        "alwaysInitializeOptionals": false,
+        "pypiPackageName": "skyscanner-referrals",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      },
+      "typescript": {
+        "bundle": false,
+        "exportClassDefault": false,
+        "httpClient": "axios",
+        "npmName": "skyscanner_referrals",
+        "npmOrg": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      }
+    },
+    "publishing": {
+      "githubOrg": ""
+    },
+    "devContainer": true,
+    "generateEnv": true,
+    "includeOptionalSnippetParameters": true,
+    "inferServiceNames": false,
+    "injectedModels": [],
+    "license": {
+      "type": "MIT",
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT",
+      "path": "MIT.ejs"
+    },
+    "responseHeaders": false,
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpCodesToRetry": [408, 429, 500, 502, 503, 504],
+      "httpMethodsToRetry": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]
+    },
+    "authentication": {
+      "apiKey": {}
+    },
+    "multiTenant": true,
+    "specUrl": "https://dev-liblab-api-stack-specs.s3.us-east-1.amazonaws.com/391/open-api-spec.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA3C2RXH7MWUCMN7ON%2F20240705%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240705T233835Z&X-Amz-Expires=43200&X-Amz-Signature=e38e3a40d6f3ab4c635173800840062f307f5a711ea0f3bb882e810597a788af&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "workflow": null,
+    "includeWatermark": true,
+    "alwaysInitializeOptionals": false,
+    "pypiPackageName": "skyscanner-referrals",
+    "githubRepoName": "",
+    "ignoreFiles": [],
+    "language": "python",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": false,
+      "sourceDir": ""
+    },
+    "usesFormData": false,
+    "environmentVariables": [],
+    "fileOutput": "/tmp",
+    "httpLibrary": {
+      "name": "axios",
+      "packages": {
+        "axios": "^1.6.8"
+      },
+      "languages": ["typescript"]
+    },
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    }
+  },
+  "files": [
+    "src/skyscanner_referrals/models/base.py",
+    "src/skyscanner_referrals/models/utils/json_map.py",
+    "src/skyscanner_referrals/models/__init__.py",
+    "src/skyscanner_referrals/services/__init__.py",
+    "src/skyscanner_referrals/__init__.py",
+    "src/skyscanner_referrals/net/__init__.py",
+    "src/skyscanner_referrals/net/headers/__init__.py",
+    "src/skyscanner_referrals/net/transport/__init__.py",
+    "src/skyscanner_referrals/hooks/__init__.py",
+    "src/skyscanner_referrals/net/environment/__init__.py",
+    "src/skyscanner_referrals/net/request_chain/__init__.py",
+    "src/skyscanner_referrals/net/request_chain/handlers/__init__.py",
+    "src/skyscanner_referrals/net/transport/request.py",
+    "src/skyscanner_referrals/net/transport/response.py",
+    "src/skyscanner_referrals/net/transport/request_error.py",
+    "src/skyscanner_referrals/sdk.py",
+    "src/skyscanner_referrals/net/transport/serializer.py",
+    "src/skyscanner_referrals/services/utils/validator.py",
+    "src/skyscanner_referrals/services/utils/base_service.py",
+    "pyproject.toml",
+    ".gitignore",
+    "src/skyscanner_referrals/models/utils/cast_models.py",
+    "src/skyscanner_referrals/net/transport/utils.py",
+    "src/skyscanner_referrals/hooks/hook.py",
+    "install.sh",
+    "install.cmd",
+    "examples/install.sh",
+    "examples/install.cmd",
+    "src/skyscanner_referrals/net/headers/base_header.py",
+    "src/skyscanner_referrals/net/headers/api_key_auth.py",
+    "src/skyscanner_referrals/net/environment/environment.py",
+    "src/skyscanner_referrals/net/request_chain/request_chain.py",
+    "src/skyscanner_referrals/net/request_chain/handlers/base_handler.py",
+    "src/skyscanner_referrals/net/request_chain/handlers/http_handler.py",
+    "src/skyscanner_referrals/net/request_chain/handlers/hook_handler.py",
+    "src/skyscanner_referrals/net/request_chain/handlers/retry_handler.py",
+    "examples/sample.py",
+    ".env.example",
+    "/examples/.env.example",
+    "src/skyscanner_referrals/services/utils/default_headers.py",
+    "./LICENSE",
+    ".devcontainer/devcontainer.json",
+    "src/skyscanner_referrals/services/car_hire.py",
+    "documentation/services/CarHireService.md",
+    "documentation/services/HotelsService.md",
+    "src/skyscanner_referrals/services/hotels.py",
+    "documentation/services/FlightsService.md",
+    "README.md",
+    "src/skyscanner_referrals/services/flights.py"
+  ]
+}
